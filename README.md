@@ -1,2 +1,2 @@
-# mrvalidation
+# mrvalidate
 Knockout validation powered by ASP.NET Web API
