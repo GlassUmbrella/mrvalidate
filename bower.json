@@ -1,0 +1,16 @@
+{
+  "name": "mrvalidate",
+  "main": "mrvalidate.js",
+  "homepage": "https://github.com/GlassUmbrella/mrvalidate",
+  "authors": [
+    "Matt Randle",
+    "Eddie Lee",
+    "Weiran Zhang"
+  ],
+  "description": "MRValidate - Bind API errors to a knockout model",
+  "license": "MIT",
+  "dependencies": {
+    "knockout": "^3.4.0",
+    "underscore": "^1.8.3"
+  }
+}
