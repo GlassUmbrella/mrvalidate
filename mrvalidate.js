@@ -60,6 +60,13 @@
         exports.hasError = ko.observable(false);
         exports.errorMessage = ko.observable();
 
+        exports.subscribe(function() {
+            if (exports.hasError !== undefined) {
+                exports.hasError(false);
+                exports.errorMessage("");
+            }
+        });
+
         return exports;
     };
 }));
